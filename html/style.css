@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+body {
+    font-family: 'Share Tech Mono', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+#scoreboard {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    border: 2px solid #444;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.scoreboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(50, 50, 50, 0.5);
+}
+
+#close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px 12px;
+}
+
+th {
+    background-color: rgba(50, 50, 50, 0.5);
+}
+
+tr:nth-child(even) {
+    background-color: rgba(50, 50, 50, 0.3);
+}
+
+tr:hover {
+    background-color: rgba(100, 100, 100, 0.5);
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
