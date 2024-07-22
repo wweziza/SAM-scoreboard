@@ -26,6 +26,7 @@ AddEventHandler('SAM-scoreboard:Server:onScoreboardPlayerClicked', function(clic
         multiline = true,
         args = {"Scoreboard", "Clicked player: ID " .. clickedPlayerId .. ", Name: " .. clickedPlayerName .. ", Ping: " .. clickedPlayerPing}
     })
+    TriggerEvent('SAM-scoreboard:Server:Custom:onScoreboardPlayerClicked', clickedPlayerId, clickedPlayerName, clickedPlayerPing)
 end)
 
 RegisterCommand("testscoreboard", function(source, args, rawCommand)
