@@ -14,7 +14,7 @@ SA-MP scoreboard for FiveM, you can adjust it anywhere.
 
 
 # Usage
-It's plug and play, just  make sure to ensure it on your server.cfg.
+It's plug and play, just  make sure to ensure it on your server.cfg. Press 'Y' to show the scoreboard and for closing it, you can adjust it later in configuration or just edit the script (for now)
 
 ## Callback
 
