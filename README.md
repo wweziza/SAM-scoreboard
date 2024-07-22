@@ -33,4 +33,7 @@ AddEventHandler('SAM-scoreboard:Server:Custom:onScoreboardPlayerClicked', functi
 end)
 ```
 
+## TODO
+Configuration for the job, factions or gangs (it will give the player specific color based on their jobs or factions)
+
 Feel free to open an issue, and contribute are welcomed.
